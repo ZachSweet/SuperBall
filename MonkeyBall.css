@@ -1,0 +1,57 @@
+#start {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+}
+
+#info {
+  position: absolute;
+  left: 10px;
+  top: 510px;
+  font-size: 30px;
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#final {
+  position: absolute;
+  left: 10px;
+  top: 510px;
+  width: 790px;
+  font-size: 50px;
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  text-align: right;
+  -webkit-text-fill-color: green;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#background, #dup-background {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 800px;
+  height: 600px;
+  display: table;
+}
+
+#background div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 75px;
+  color: black;
+  -webkit-text-fill-color: yellow;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  white-space: pre-wrap;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Super Ball</title>
+    <link rel="icon" href="data/backgrounds/icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="MonkeyBall.css">
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="800" height="600">
+    Please use a browser that supports "canvas"
+    </canvas>
+		
+    <div id="start">
+      <button type="button" id="play">PLAY GAME</button>
+    </div>
+    
+    <div id="background">
+      <div><span id="dynamic"></span></div>
+    </div>
+    
+    <div id="dup-background"></div>
+    
+    <div id="info">
+      <div><span id="mph"></span></div>
+      <div><span id="floor"></span></div>
+    </div>
+    
+    <div id="final"><span id="finalStage"></span></div>
+    
+    <br>
+    <br>
+    <div id="nextLevel" style="visibility:hidden">
+      Use the WASD keys to move the ball toward the goal!
+      <br>
+      <br>
+      <button type="button" id="skip" >Skip Level</button>
+      
+    </div>
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="src/MonkeyBall.js"></script>
+    <script src="src/geometry/Shape.js"></script>
+    <script src="src/geometry/Point.js"></script>
+    <script src="src/geometry/Triangle.js"></script>
+    <script src="src/geometry/Circle.js"></script>
+    <script src="src/geometry/Cube.js"></script>
+    <script src="src/geometry/Sphere.js"></script>
+    <script src="src/geometry/Goal.js"></script>
+    <script src="src/levels/level.js"></script>
+    <script src="src/levels/basic.js"></script>
+    <script src="src/levels/ramps.js"></script>
+    <script src="src/levels/slide.js"></script>
+    <script src="src/levels/obstruction.js"></script>
+    <script src="src/levels/bumps.js"></script>
+    <script src="src/levels/battlefield.js"></script>
+    <script src="src/levels/spiral.js"></script>
+    <script src="src/levels/circus.js"></script>
+    <script src="src/levels/cubic.js"></script>
+    <script src="src/levels/exam.js"></script>
+  </body>
+</html>
